@@ -187,12 +187,11 @@ const Skills = () => {
               Core Expertise & Leadership
             </h3>
             <p className="text-gray-600 dark:text-gray-400 leading-relaxed mb-8 text-lg">
-              Specialized in <span className="text-primary-600 font-semibold">Java 17 ecosystem</span> with 
+              Specialized in <span className="text-primary-600 font-semibold">Java 8 ecosystem</span> with 
               extensive experience in <span className="text-primary-600 font-semibold">Spring Boot microservices</span>, 
               <span className="text-primary-600 font-semibold"> AWS cloud services</span>, and modern development practices. 
-              Proficient in <span className="text-primary-600 font-semibold">Elasticsearch and Kibana</span> for monitoring and analytics, 
-              <span className="text-primary-600 font-semibold"> OAuth authentication</span> systems, and 
-              <span className="text-primary-600 font-semibold"> system architecture design</span>. 
+              Currently leading teams with expertise in <span className="text-primary-600 font-semibold">HLD/LLD design</span> and 
+              <span className="text-primary-600 font-semibold"> system architecture</span>. 
               Expanding expertise in <span className="text-primary-600 font-semibold">GenAI and MCP technologies</span> 
               to stay at the forefront of software innovation.
             </p>
@@ -204,11 +203,11 @@ const Skills = () => {
                 <div className="text-sm text-gray-600 dark:text-gray-400 font-medium">Years Experience</div>
               </div>
               <div className="text-center p-4 bg-white dark:bg-dark-800 rounded-2xl shadow-lg hover:shadow-xl transition-shadow">
-                <div className="text-3xl font-bold text-primary-600 dark:text-primary-400 mb-2">9</div>
+                <div className="text-3xl font-bold text-primary-600 dark:text-primary-400 mb-2">8</div>
                 <div className="text-sm text-gray-600 dark:text-gray-400 font-medium">Skill Categories</div>
               </div>
               <div className="text-center p-4 bg-white dark:bg-dark-800 rounded-2xl shadow-lg hover:shadow-xl transition-shadow">
-                <div className="text-3xl font-bold text-primary-600 dark:text-primary-400 mb-2">30+</div>
+                <div className="text-3xl font-bold text-primary-600 dark:text-primary-400 mb-2">25+</div>
                 <div className="text-sm text-gray-600 dark:text-gray-400 font-medium">Technologies</div>
               </div>
               <div className="text-center p-4 bg-white dark:bg-dark-800 rounded-2xl shadow-lg hover:shadow-xl transition-shadow">

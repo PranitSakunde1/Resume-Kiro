@@ -156,7 +156,7 @@ const Projects = () => {
                   {/* Project status/type indicator */}
                   <div className="flex items-center justify-between pt-6 border-t border-gray-200 dark:border-dark-700">
                     <span className="text-sm text-gray-500 dark:text-gray-400 font-medium">
-                      {project.isLeadership ? 'Leadership Role' : 'Development Contribution'}
+                      {project.isLeadership ? 'Technical Leadership' : 'Development Contribution'}
                     </span>
                     <div className={`w-3 h-3 rounded-full bg-gradient-to-r ${colorClass} animate-pulse`}></div>
                   </div>

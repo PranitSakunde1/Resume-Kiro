@@ -187,7 +187,7 @@ const Skills = () => {
               Core Expertise & Leadership
             </h3>
             <p className="text-gray-600 dark:text-gray-400 leading-relaxed mb-8 text-lg">
-              Specialized in <span className="text-primary-600 font-semibold">Java 17 ecosystem</span> with 
+              Specialized in <span className="text-primary-600 font-semibold">Java 8 ecosystem</span> with 
               extensive experience in <span className="text-primary-600 font-semibold">Spring Boot microservices</span>, 
               <span className="text-primary-600 font-semibold"> AWS cloud services</span>, and modern development practices. 
               Proficient in <span className="text-primary-600 font-semibold">Elasticsearch and Kibana</span> for monitoring and analytics, 

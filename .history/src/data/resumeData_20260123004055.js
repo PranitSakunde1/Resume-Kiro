@@ -22,7 +22,7 @@ export const resumeData = {
       achievements: [
         "Led a cross-functional team of 8 members in the HP Active Care project, delivering critical healthcare management solutions for HP Inc.",
         "Created comprehensive High-Level Design (HLD) and Low-Level Design (LLD) documents for scalable microservices architecture",
-        "Designed and implemented technical architecture using Java 17, Spring Boot, and AWS cloud services for healthcare data processing",
+        "Designed and implemented technical architecture using Java 8, Spring Boot, and AWS cloud services for healthcare data processing",
         "Established coding standards, review processes, and best practices that improved team productivity by 40%",
         "Mentored junior developers and conducted technical training sessions on microservices patterns and cloud-native development",
         "Collaborated with HP product managers and stakeholders to translate business requirements into technical specifications",
@@ -40,7 +40,7 @@ export const resumeData = {
       description: "Developed enterprise-level applications and microservices for HP's core business platforms",
       achievements: [
         "Architected and developed microservices for HP AdminX and HP Workforce Experience Platform serving 50,000+ users",
-        "Implemented robust RESTful APIs with 99.9% uptime using Java 17, Spring Boot, and AWS services for HP solutions",
+        "Implemented robust RESTful APIs with 99.9% uptime using Java 8, Spring Boot, and AWS services for HP solutions",
         "Ensured high code quality through comprehensive unit testing and integration testing using JUnit and Mockito",
         "Collaborated within an Agile environment, participating in sprint planning, code reviews, and daily stand-ups to ensure timely delivery and quality enhancement",
         "Optimized database queries and implemented caching strategies, improving application performance by 35%",
@@ -56,7 +56,7 @@ export const resumeData = {
       type: "previous",
       description: "Full-stack development and cloud integration",
       achievements: [
-        "Developed and maintained RESTful APIs and microservices using Java 17 Spring Boot, improving system modularity and efficiency",
+        "Developed and maintained RESTful APIs and microservices using Java 8 Spring Boot, improving system modularity and efficiency",
         "Integrated AWS cloud services (S3, SNS, SQS, Lambda) to build cloud-native, scalable solutions",
         "Worked closely with cross-functional teams to deliver features and improvements within Agile timelines",
         "Applied Golang for performance-critical components, enhancing application responsiveness"
@@ -71,7 +71,7 @@ export const resumeData = {
       client: "HP Inc.",
       company: "Quest Global",
       description: "A comprehensive healthcare management platform designed to streamline patient care, medical data processing, and healthcare provider workflows. Led the technical architecture and team of 8 developers to deliver this critical healthcare solution for HP Inc.",
-      technologies: ["Java 17", "Spring Boot", "Microservices", "AWS", "Healthcare APIs", "HLD/LLD Design"],
+      technologies: ["Java 8", "Spring Boot", "Microservices", "AWS", "Healthcare APIs", "HLD/LLD Design"],
       category: "Healthcare Platform",
       isLeadership: true,
       teamSize: "8 members",
@@ -83,7 +83,7 @@ export const resumeData = {
       client: "HP Inc.",
       company: "Quest Global",
       description: "A management platform designed for efficient administration of HP devices and services, enhancing productivity through centralized control and monitoring across enterprise environments.",
-      technologies: ["Java 17", "Spring Boot", "Microservices", "AWS", "RESTful APIs"],
+      technologies: ["Java 8", "Spring Boot", "Microservices", "AWS", "RESTful APIs"],
       category: "Enterprise Platform",
       impact: "50,000+ users"
     },
@@ -93,7 +93,7 @@ export const resumeData = {
       client: "HP Inc.",
       company: "Quest Global",
       description: "An integrated platform aimed at enhancing employee engagement and experience through tools for performance management, collaboration, and feedback, enabling organizations to optimize their workforce.",
-      technologies: ["Java 17", "Spring Boot", "Microservices", "AWS", "Performance Analytics"],
+      technologies: ["Java 8", "Spring Boot", "Microservices", "AWS", "Performance Analytics"],
       category: "HR Platform",
       impact: "Enterprise-wide deployment"
     },
@@ -103,7 +103,7 @@ export const resumeData = {
       client: "HP Inc.",
       company: "Quest Global",
       description: "A proactive management solution offering diagnostics, device performance monitoring, and predictive analytics for HP hardware and software, aimed at minimizing downtime and optimizing performance.",
-      technologies: ["Java 17", "Spring Boot", "AWS", "Analytics", "Golang", "Cloud Services"],
+      technologies: ["Java 8", "Spring Boot", "AWS", "Analytics", "Golang", "Cloud Services"],
       category: "Monitoring Solution",
       impact: "99.9% system uptime"
     }

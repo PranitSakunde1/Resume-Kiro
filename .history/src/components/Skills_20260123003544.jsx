@@ -33,8 +33,7 @@ const Skills = () => {
     'Testing & Quality': TestTube,
     'Development Practices': Zap,
     'AI & Modern Tech': Brain,
-    'Monitoring & Analytics': TrendingUp,
-    'Authentication & Security': Award,
+    'Integration & Auth': Cog,
     'Leadership & Architecture': Award
   }
 
@@ -45,9 +44,8 @@ const Skills = () => {
     'Testing & Quality': 'from-red-500 to-red-600',
     'Development Practices': 'from-yellow-500 to-yellow-600',
     'AI & Modern Tech': 'from-pink-500 to-pink-600',
-    'Monitoring & Analytics': 'from-indigo-500 to-indigo-600',
-    'Authentication & Security': 'from-orange-500 to-orange-600',
-    'Leadership & Architecture': 'from-teal-500 to-teal-600'
+    'Integration & Auth': 'from-indigo-500 to-indigo-600',
+    'Leadership & Architecture': 'from-orange-500 to-orange-600'
   }
 
   const skillLevels = {
@@ -57,8 +55,7 @@ const Skills = () => {
     'Testing & Quality': 88,
     'Development Practices': 92,
     'AI & Modern Tech': 75,
-    'Monitoring & Analytics': 82,
-    'Authentication & Security': 85,
+    'Integration & Auth': 80,
     'Leadership & Architecture': 90
   }
 
@@ -187,12 +184,11 @@ const Skills = () => {
               Core Expertise & Leadership
             </h3>
             <p className="text-gray-600 dark:text-gray-400 leading-relaxed mb-8 text-lg">
-              Specialized in <span className="text-primary-600 font-semibold">Java 17 ecosystem</span> with 
+              Specialized in <span className="text-primary-600 font-semibold">Java 8 ecosystem</span> with 
               extensive experience in <span className="text-primary-600 font-semibold">Spring Boot microservices</span>, 
               <span className="text-primary-600 font-semibold"> AWS cloud services</span>, and modern development practices. 
-              Proficient in <span className="text-primary-600 font-semibold">Elasticsearch and Kibana</span> for monitoring and analytics, 
-              <span className="text-primary-600 font-semibold"> OAuth authentication</span> systems, and 
-              <span className="text-primary-600 font-semibold"> system architecture design</span>. 
+              Currently leading teams with expertise in <span className="text-primary-600 font-semibold">HLD/LLD design</span> and 
+              <span className="text-primary-600 font-semibold"> system architecture</span>. 
               Expanding expertise in <span className="text-primary-600 font-semibold">GenAI and MCP technologies</span> 
               to stay at the forefront of software innovation.
             </p>
@@ -204,11 +200,11 @@ const Skills = () => {
                 <div className="text-sm text-gray-600 dark:text-gray-400 font-medium">Years Experience</div>
               </div>
               <div className="text-center p-4 bg-white dark:bg-dark-800 rounded-2xl shadow-lg hover:shadow-xl transition-shadow">
-                <div className="text-3xl font-bold text-primary-600 dark:text-primary-400 mb-2">9</div>
+                <div className="text-3xl font-bold text-primary-600 dark:text-primary-400 mb-2">8</div>
                 <div className="text-sm text-gray-600 dark:text-gray-400 font-medium">Skill Categories</div>
               </div>
               <div className="text-center p-4 bg-white dark:bg-dark-800 rounded-2xl shadow-lg hover:shadow-xl transition-shadow">
-                <div className="text-3xl font-bold text-primary-600 dark:text-primary-400 mb-2">30+</div>
+                <div className="text-3xl font-bold text-primary-600 dark:text-primary-400 mb-2">25+</div>
                 <div className="text-sm text-gray-600 dark:text-gray-400 font-medium">Technologies</div>
               </div>
               <div className="text-center p-4 bg-white dark:bg-dark-800 rounded-2xl shadow-lg hover:shadow-xl transition-shadow">

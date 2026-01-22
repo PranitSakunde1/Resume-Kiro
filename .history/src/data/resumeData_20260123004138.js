@@ -103,7 +103,7 @@ export const resumeData = {
       client: "HP Inc.",
       company: "Quest Global",
       description: "A proactive management solution offering diagnostics, device performance monitoring, and predictive analytics for HP hardware and software, aimed at minimizing downtime and optimizing performance.",
-      technologies: ["Java 17", "Spring Boot", "AWS", "Analytics", "Golang", "Cloud Services"],
+      technologies: ["Java 8", "Spring Boot", "AWS", "Analytics", "Golang", "Cloud Services"],
       category: "Monitoring Solution",
       impact: "99.9% system uptime"
     }

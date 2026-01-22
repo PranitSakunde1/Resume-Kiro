@@ -71,7 +71,7 @@ export const resumeData = {
       client: "HP Inc.",
       company: "Quest Global",
       description: "A comprehensive healthcare management platform designed to streamline patient care, medical data processing, and healthcare provider workflows. Led the technical architecture and team of 8 developers to deliver this critical healthcare solution for HP Inc.",
-      technologies: ["Java 17", "Spring Boot", "Microservices", "AWS", "Healthcare APIs", "HLD/LLD Design"],
+      technologies: ["Java 8", "Spring Boot", "Microservices", "AWS", "Healthcare APIs", "HLD/LLD Design"],
       category: "Healthcare Platform",
       isLeadership: true,
       teamSize: "8 members",
@@ -83,7 +83,7 @@ export const resumeData = {
       client: "HP Inc.",
       company: "Quest Global",
       description: "A management platform designed for efficient administration of HP devices and services, enhancing productivity through centralized control and monitoring across enterprise environments.",
-      technologies: ["Java 17", "Spring Boot", "Microservices", "AWS", "RESTful APIs"],
+      technologies: ["Java 8", "Spring Boot", "Microservices", "AWS", "RESTful APIs"],
       category: "Enterprise Platform",
       impact: "50,000+ users"
     },
@@ -93,7 +93,7 @@ export const resumeData = {
       client: "HP Inc.",
       company: "Quest Global",
       description: "An integrated platform aimed at enhancing employee engagement and experience through tools for performance management, collaboration, and feedback, enabling organizations to optimize their workforce.",
-      technologies: ["Java 17", "Spring Boot", "Microservices", "AWS", "Performance Analytics"],
+      technologies: ["Java 8", "Spring Boot", "Microservices", "AWS", "Performance Analytics"],
       category: "HR Platform",
       impact: "Enterprise-wide deployment"
     },
@@ -103,7 +103,7 @@ export const resumeData = {
       client: "HP Inc.",
       company: "Quest Global",
       description: "A proactive management solution offering diagnostics, device performance monitoring, and predictive analytics for HP hardware and software, aimed at minimizing downtime and optimizing performance.",
-      technologies: ["Java 17", "Spring Boot", "AWS", "Analytics", "Golang", "Cloud Services"],
+      technologies: ["Java 8", "Spring Boot", "AWS", "Analytics", "Golang", "Cloud Services"],
       category: "Monitoring Solution",
       impact: "99.9% system uptime"
     }
