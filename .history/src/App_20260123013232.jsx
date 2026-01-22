@@ -37,23 +37,20 @@ function App() {
   }, [])
 
   return (
-    <ThemeProvider>
-      <div className="min-h-screen bg-white dark:bg-gray-900 text-gray-900 dark:text-white relative transition-colors duration-300">
-        <CodeBackground />
-        <PDFStyles />
-        <ThemeToggle />
-        <Navbar activeSection={activeSection} />
-        <main>
-          <Hero />
-          <Skills />
-          <Experience />
-          <Projects />
-          <Education />
-          <Contact />
-        </main>
-        <ScrollToTop />
-      </div>
-    </ThemeProvider>
+    <div className="min-h-screen bg-white dark:bg-dark-900 text-gray-900 dark:text-white relative">
+      <CodeBackground />
+      <PDFStyles />
+      <Navbar activeSection={activeSection} />
+      <main>
+        <Hero />
+        <Skills />
+        <Experience />
+        <Projects />
+        <Education />
+        <Contact />
+      </main>
+      <ScrollToTop />
+    </div>
   )
 }
 

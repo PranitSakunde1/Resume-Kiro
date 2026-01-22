@@ -176,7 +176,7 @@ const Hero = () => {
         <div className="absolute bottom-8 left-1/2 transform -translate-x-1/2 animate-bounce">
           <button
             onClick={scrollToNext}
-            className="group p-4 text-gray-400 hover:text-primary-500 transition-colors bg-white/50 dark:bg-gray-800/50 rounded-full backdrop-blur-sm border border-gray-200/50 dark:border-gray-700/50 hover:scale-110 transition-transform"
+            className="group p-4 text-gray-400 hover:text-primary-500 transition-colors bg-white/50 dark:bg-dark-800/50 rounded-full backdrop-blur-sm border border-gray-200/50 dark:border-dark-700/50 hover:scale-110 transition-transform"
           >
             <ChevronDown className="w-6 h-6 group-hover:animate-pulse" />
           </button>

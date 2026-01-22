@@ -71,15 +71,15 @@ const Hero = () => {
 
             {/* Enhanced contact info */}
             <div className="flex flex-wrap justify-center lg:justify-start gap-6 mb-10 text-gray-600 dark:text-gray-400">
-              <div className="flex items-center gap-3 p-3 bg-white/50 dark:bg-gray-800/50 rounded-xl backdrop-blur-sm border border-gray-200/50 dark:border-gray-700/50 hover:scale-105 transition-transform">
+              <div className="flex items-center gap-3 p-3 bg-white/50 dark:bg-dark-800/50 rounded-xl backdrop-blur-sm border border-gray-200/50 dark:border-dark-700/50 hover:scale-105 transition-transform">
                 <MapPin className="w-5 h-5 text-primary-500" />
                 <span className="font-medium">{personal.location}</span>
               </div>
-              <a href={`mailto:${personal.email}`} className="flex items-center gap-3 p-3 bg-white/50 dark:bg-gray-800/50 rounded-xl backdrop-blur-sm border border-gray-200/50 dark:border-gray-700/50 hover:scale-105 transition-transform hover:text-primary-500">
+              <a href={`mailto:${personal.email}`} className="flex items-center gap-3 p-3 bg-white/50 dark:bg-dark-800/50 rounded-xl backdrop-blur-sm border border-gray-200/50 dark:border-dark-700/50 hover:scale-105 transition-transform hover:text-primary-500">
                 <Mail className="w-5 h-5 text-primary-500" />
                 <span className="font-medium">{personal.email}</span>
               </a>
-              <a href={`tel:${personal.phone}`} className="flex items-center gap-3 p-3 bg-white/50 dark:bg-gray-800/50 rounded-xl backdrop-blur-sm border border-gray-200/50 dark:border-gray-700/50 hover:scale-105 transition-transform hover:text-primary-500">
+              <a href={`tel:${personal.phone}`} className="flex items-center gap-3 p-3 bg-white/50 dark:bg-dark-800/50 rounded-xl backdrop-blur-sm border border-gray-200/50 dark:border-dark-700/50 hover:scale-105 transition-transform hover:text-primary-500">
                 <Phone className="w-5 h-5 text-primary-500" />
                 <span className="font-medium">{personal.phone}</span>
               </a>
@@ -118,7 +118,7 @@ const Hero = () => {
                 href={resumeData.contact.github}
                 target="_blank"
                 rel="noopener noreferrer"
-                className="group p-4 bg-white/80 dark:bg-gray-800/80 hover:bg-primary-100 dark:hover:bg-primary-900/20 text-gray-600 dark:text-gray-400 hover:text-primary-600 dark:hover:text-primary-400 rounded-2xl transition-all duration-300 hover:transform hover:scale-110 shadow-lg hover:shadow-xl backdrop-blur-sm border border-gray-200/50 dark:border-gray-700/50"
+                className="group p-4 bg-white/80 dark:bg-dark-800/80 hover:bg-primary-100 dark:hover:bg-primary-900/20 text-gray-600 dark:text-gray-400 hover:text-primary-600 dark:hover:text-primary-400 rounded-2xl transition-all duration-300 hover:transform hover:scale-110 shadow-lg hover:shadow-xl backdrop-blur-sm border border-gray-200/50 dark:border-dark-700/50"
               >
                 <Github className="w-6 h-6 group-hover:animate-pulse" />
               </a>
@@ -126,7 +126,7 @@ const Hero = () => {
                 href={resumeData.contact.linkedin}
                 target="_blank"
                 rel="noopener noreferrer"
-                className="group p-4 bg-white/80 dark:bg-gray-800/80 hover:bg-primary-100 dark:hover:bg-primary-900/20 text-gray-600 dark:text-gray-400 hover:text-primary-600 dark:hover:text-primary-400 rounded-2xl transition-all duration-300 hover:transform hover:scale-110 shadow-lg hover:shadow-xl backdrop-blur-sm border border-gray-200/50 dark:border-gray-700/50"
+                className="group p-4 bg-white/80 dark:bg-dark-800/80 hover:bg-primary-100 dark:hover:bg-primary-900/20 text-gray-600 dark:text-gray-400 hover:text-primary-600 dark:hover:text-primary-400 rounded-2xl transition-all duration-300 hover:transform hover:scale-110 shadow-lg hover:shadow-xl backdrop-blur-sm border border-gray-200/50 dark:border-dark-700/50"
               >
                 <Linkedin className="w-6 h-6 group-hover:animate-pulse" />
               </a>
@@ -141,7 +141,7 @@ const Hero = () => {
               <div className="absolute -inset-4 bg-gradient-to-r from-primary-500 to-purple-500 rounded-full blur-xl opacity-40 animate-pulse delay-300"></div>
               
               {/* Profile image container */}
-              <div className="relative w-80 h-80 lg:w-96 lg:h-96 rounded-full overflow-hidden border-4 border-white dark:border-gray-700 shadow-2xl group-hover:shadow-3xl transition-all duration-500 bg-gradient-to-br from-primary-100 to-purple-100 dark:from-primary-900/20 dark:to-purple-900/20">
+              <div className="relative w-80 h-80 lg:w-96 lg:h-96 rounded-full overflow-hidden border-4 border-white dark:border-dark-700 shadow-2xl group-hover:shadow-3xl transition-all duration-500 bg-gradient-to-br from-primary-100 to-purple-100 dark:from-primary-900/20 dark:to-purple-900/20">
                 <img
                   src="/profile.jpg"
                   alt={personal.name}
@@ -176,7 +176,7 @@ const Hero = () => {
         <div className="absolute bottom-8 left-1/2 transform -translate-x-1/2 animate-bounce">
           <button
             onClick={scrollToNext}
-            className="group p-4 text-gray-400 hover:text-primary-500 transition-colors bg-white/50 dark:bg-gray-800/50 rounded-full backdrop-blur-sm border border-gray-200/50 dark:border-gray-700/50 hover:scale-110 transition-transform"
+            className="group p-4 text-gray-400 hover:text-primary-500 transition-colors bg-white/50 dark:bg-dark-800/50 rounded-full backdrop-blur-sm border border-gray-200/50 dark:border-dark-700/50 hover:scale-110 transition-transform"
           >
             <ChevronDown className="w-6 h-6 group-hover:animate-pulse" />
           </button>
