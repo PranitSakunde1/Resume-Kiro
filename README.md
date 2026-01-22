@@ -1,0 +1,269 @@
+# 🚀 Pranit Sakunde - Resume Website
+
+A modern, responsive, and performance-optimized resume website built with React and Vite. Features a professional dark-mode design with smooth animations and mobile-first responsive layout.
+
+## 📋 Project Overview
+
+### Tech Stack
+- **Frontend Framework:** React 18
+- **Build Tool:** Vite
+- **Styling:** Tailwind CSS
+- **Icons:** Lucide React
+- **Deployment:** Static hosting ready
+
+### Features
+- ✨ Modern, professional design with dark mode
+- 📱 Fully responsive (mobile-first approach)
+- 🎨 Smooth scrolling and subtle animations
+- 🚀 Optimized for performance (Lighthouse score > 90)
+- 📊 Structured data consumption from JSON
+- 🔗 SEO optimized with meta tags
+- 📄 Resume PDF download functionality
+- 🎯 Sticky navigation with active section highlighting
+
+### Screenshots
+![Hero Section](./screenshots/hero.png)
+![Skills Section](./screenshots/skills.png)
+![Experience Section](./screenshots/experience.png)
+![Projects Section](./screenshots/projects.png)
+
+*Note: Add actual screenshots to the `/screenshots` folder*
+
+## 🛠️ Local Development
+
+### Prerequisites
+- Node.js (version 16 or higher)
+- npm or yarn package manager
+
+### Installation & Setup
+
+1. **Clone the repository**
+   ```bash
+   git clone <your-repo-url>
+   cd resume-website
+   ```
+
+2. **Install dependencies**
+   ```bash
+   npm install
+   ```
+
+3. **Add your profile image**
+   - Save your profile image as `public/profile.jpg`
+   - Recommended size: 400x400px
+   - Format: JPG, PNG, or WebP
+
+4. **Add your resume PDF**
+   - Save your resume as `public/resume.pdf`
+   - This enables the download functionality
+
+5. **Update resume data**
+   - Edit `src/data/resumeData.js` with your information
+   - Update personal details, experience, skills, projects, and education
+
+6. **Start development server**
+   ```bash
+   npm run dev
+   ```
+
+7. **Open in browser**
+   - Navigate to `http://localhost:5173`
+   - The site will automatically reload on changes
+
+## 🏗️ Production Build
+
+Create an optimized production build:
+
+```bash
+npm run build
+```
+
+The build artifacts will be stored in the `dist/` directory, ready for deployment.
+
+### Preview Production Build
+```bash
+npm run preview
+```
+
+## 🌐 Free Hosting - Step-by-Step
+
+### A. Netlify (Recommended)
+
+1. **Prepare your code**
+   ```bash
+   git add .
+   git commit -m "Initial commit"
+   git push origin main
+   ```
+
+2. **Deploy to Netlify**
+   - Go to [Netlify](https://netlify.com)
+   - Click "New Site from Git"
+   - Connect your GitHub account
+   - Select your repository
+   - Configure build settings:
+     - **Build command:** `npm run build`
+     - **Publish directory:** `dist`
+   - Click "Deploy Site"
+
+3. **Custom Domain (Optional)**
+   - Go to Site Settings → Domain Management
+   - Add custom domain
+   - Configure DNS settings as instructed
+
+### B. Vercel
+
+1. **Deploy to Vercel**
+   - Go to [Vercel](https://vercel.com)
+   - Click "Import Project"
+   - Import your GitHub repository
+   - Configure settings:
+     - **Framework Preset:** Vite
+     - **Build Command:** `npm run build`
+     - **Output Directory:** `dist`
+   - Click "Deploy"
+
+2. **Custom Domain**
+   - Go to Project Settings → Domains
+   - Add your custom domain
+   - Configure DNS as instructed
+
+### C. GitHub Pages
+
+1. **Install gh-pages**
+   ```bash
+   npm install --save-dev gh-pages
+   ```
+
+2. **Add deploy script to package.json**
+   ```json
+   {
+     "scripts": {
+       "deploy": "gh-pages -d dist"
+     }
+   }
+   ```
+
+3. **Update vite.config.js for GitHub Pages**
+   ```javascript
+   export default defineConfig({
+     plugins: [react()],
+     base: '/your-repo-name/', // Replace with your repo name
+     // ... other config
+   })
+   ```
+
+4. **Deploy**
+   ```bash
+   npm run build
+   npm run deploy
+   ```
+
+5. **Enable GitHub Pages**
+   - Go to Repository Settings → Pages
+   - Source: Deploy from a branch
+   - Branch: gh-pages
+   - Folder: / (root)
+
+## 🎨 Customization
+
+### Colors & Branding
+- Edit `tailwind.config.js` to customize the color scheme
+- Update the primary color palette in the `colors.primary` section
+- Modify the gradient classes in `src/index.css`
+
+### Content Updates
+- **Personal Information:** Update `src/data/resumeData.js`
+- **Profile Image:** Replace `public/profile.jpg`
+- **Resume PDF:** Replace `public/resume.pdf`
+- **Favicon:** Replace `public/favicon.svg`
+
+### Adding New Sections
+1. Create a new component in `src/components/`
+2. Import and add it to `src/App.jsx`
+3. Update the navigation in `src/components/Navbar.jsx`
+4. Add corresponding data to `resumeData.js`
+
+## 📄 Resume PDF Download
+
+### Setup Instructions
+
+1. **Add your resume PDF**
+   ```bash
+   # Place your resume in the public folder
+   cp /path/to/your/resume.pdf public/resume.pdf
+   ```
+
+2. **Customize download filename**
+   - Edit the filename in `src/components/Navbar.jsx` and `src/components/Hero.jsx`
+   - Look for `Pranit_Sakunde_Resume.pdf` and update as needed
+
+3. **Test download functionality**
+   - Click the "Download Resume" button
+   - Verify the correct file downloads
+
+## 🔧 Custom Domain (Optional)
+
+### For Netlify:
+1. Go to Site Settings → Domain Management
+2. Click "Add custom domain"
+3. Enter your domain name
+4. Configure DNS:
+   - Add CNAME record: `www` → `your-site.netlify.app`
+   - Add A record: `@` → `75.2.60.5`
+
+### For Vercel:
+1. Go to Project Settings → Domains
+2. Add your domain
+3. Configure DNS:
+   - Add CNAME record: `www` → `cname.vercel-dns.com`
+   - Add A record: `@` → `76.76.19.61`
+
+## 🚀 Performance Optimization
+
+The website is optimized for performance with:
+
+- **Vite's fast build system**
+- **Tailwind CSS purging unused styles**
+- **Optimized images and assets**
+- **Minimal JavaScript bundle**
+- **Semantic HTML structure**
+- **Proper meta tags for SEO**
+
+### Lighthouse Scores Target:
+- Performance: > 90
+- Accessibility: > 95
+- Best Practices: > 90
+- SEO: > 90
+
+## 📱 Browser Support
+
+- Chrome (latest)
+- Firefox (latest)
+- Safari (latest)
+- Edge (latest)
+- Mobile browsers (iOS Safari, Chrome Mobile)
+
+## 🤝 Contributing
+
+1. Fork the repository
+2. Create a feature branch
+3. Make your changes
+4. Test thoroughly
+5. Submit a pull request
+
+## 📄 License
+
+This project is open source and available under the [MIT License](LICENSE).
+
+## 📞 Support
+
+If you encounter any issues or have questions:
+
+- **Email:** sakundepranit@gmail.com
+- **LinkedIn:** [Pranit Sakunde](https://linkedin.com/in/pranit-sakunde)
+- **GitHub:** [pranit-sakunde](https://github.com/pranit-sakunde)
+
+---
+
+**Built with ❤️ by Pranit Sakunde**
