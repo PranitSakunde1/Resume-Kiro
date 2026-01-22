@@ -60,7 +60,7 @@ const Projects = () => {
                 {/* Enhanced project header */}
                 <div className={`h-3 bg-gradient-to-r ${colorClass}`}></div>
                 
-                <div className="p-6 sm:p-8">
+                <div className="p-8">
                   {/* Company and Client info */}
                   <div className="flex items-center justify-between mb-6">
                     <div className="flex flex-col gap-2">

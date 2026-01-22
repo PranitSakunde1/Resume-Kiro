@@ -125,7 +125,7 @@ const Skills = () => {
                   </div>
                 </div>
 
-                <h3 className="text-base sm:text-lg font-bold text-gray-900 dark:text-white mb-3 sm:mb-4 group-hover:text-primary-600 dark:group-hover:text-primary-400 transition-colors relative z-10">
+                <h3 className="text-lg font-bold text-gray-900 dark:text-white mb-4 group-hover:text-primary-600 dark:group-hover:text-primary-400 transition-colors relative z-10">
                   {category}
                 </h3>
                 

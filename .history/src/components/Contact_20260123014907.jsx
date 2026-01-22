@@ -213,7 +213,7 @@ const Contact = () => {
             </div>
 
             {/* What I Offer */}
-            <div className="bg-white dark:bg-dark-900 rounded-2xl p-6 sm:p-8 shadow-lg border border-gray-100 dark:border-dark-700">
+            <div className="bg-white dark:bg-dark-900 rounded-2xl p-8 shadow-lg border border-gray-100 dark:border-dark-700">
               <div className="flex items-center gap-3 mb-6">
                 <div className="p-3 bg-gradient-to-r from-purple-500 to-pink-500 text-white rounded-xl">
                   <CheckCircle className="w-6 h-6" />

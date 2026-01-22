@@ -97,29 +97,29 @@ const Contact = () => {
                     
                     {/* Content */}
                     <div className="relative z-10">
-                      <div className="flex items-start justify-between mb-3 sm:mb-4">
-                        <div className={`p-2 sm:p-3 rounded-xl bg-gradient-to-r ${method.color} text-white group-hover:scale-110 transition-transform duration-300`}>
-                          <IconComponent className="w-5 h-5 sm:w-6 sm:h-6" />
+                      <div className="flex items-start justify-between mb-4">
+                        <div className={`p-3 rounded-xl bg-gradient-to-r ${method.color} text-white group-hover:scale-110 transition-transform duration-300`}>
+                          <IconComponent className="w-6 h-6" />
                         </div>
                         <div className="text-right">
                           <div className="text-xs text-gray-500 dark:text-gray-400 mb-1">Response Time</div>
-                          <div className="text-xs sm:text-sm font-medium text-gray-700 dark:text-gray-300">{method.response}</div>
+                          <div className="text-sm font-medium text-gray-700 dark:text-gray-300">{method.response}</div>
                         </div>
                       </div>
                       
-                      <h3 className="text-lg sm:text-xl font-bold text-gray-900 dark:text-white mb-2 group-hover:text-primary-600 dark:group-hover:text-primary-400 transition-colors">
+                      <h3 className="text-xl font-bold text-gray-900 dark:text-white mb-2 group-hover:text-primary-600 dark:group-hover:text-primary-400 transition-colors">
                         {method.label}
                       </h3>
                       
-                      <p className="text-gray-600 dark:text-gray-400 text-xs sm:text-sm mb-3 sm:mb-4">
+                      <p className="text-gray-600 dark:text-gray-400 text-sm mb-4">
                         {method.description}
                       </p>
                       
                       <div className="flex items-center justify-between">
-                        <span className="text-xs sm:text-sm font-medium text-gray-700 dark:text-gray-300 truncate">
+                        <span className="text-sm font-medium text-gray-700 dark:text-gray-300 truncate">
                           {method.value}
                         </span>
-                        <ArrowRight className="w-3 h-3 sm:w-4 sm:h-4 text-gray-400 group-hover:text-primary-500 group-hover:translate-x-1 transition-all duration-300" />
+                        <ArrowRight className="w-4 h-4 text-gray-400 group-hover:text-primary-500 group-hover:translate-x-1 transition-all duration-300" />
                       </div>
                     </div>
                   </a>
@@ -176,9 +176,9 @@ const Contact = () => {
           </div>
 
           {/* Bottom Section - Enhanced */}
-          <div className="grid grid-cols-1 lg:grid-cols-2 gap-6 sm:gap-8">
+          <div className="grid grid-cols-1 lg:grid-cols-2 gap-8">
             {/* Location & Availability */}
-            <div className="bg-white dark:bg-dark-900 rounded-2xl p-6 sm:p-8 shadow-lg border border-gray-100 dark:border-dark-700">
+            <div className="bg-white dark:bg-dark-900 rounded-2xl p-8 shadow-lg border border-gray-100 dark:border-dark-700">
               <div className="flex items-center gap-3 mb-6">
                 <div className="p-3 bg-primary-100 dark:bg-primary-900/20 text-primary-600 dark:text-primary-400 rounded-xl">
                   <MapPin className="w-6 h-6" />
@@ -213,7 +213,7 @@ const Contact = () => {
             </div>
 
             {/* What I Offer */}
-            <div className="bg-white dark:bg-dark-900 rounded-2xl p-6 sm:p-8 shadow-lg border border-gray-100 dark:border-dark-700">
+            <div className="bg-white dark:bg-dark-900 rounded-2xl p-8 shadow-lg border border-gray-100 dark:border-dark-700">
               <div className="flex items-center gap-3 mb-6">
                 <div className="p-3 bg-gradient-to-r from-purple-500 to-pink-500 text-white rounded-xl">
                   <CheckCircle className="w-6 h-6" />

@@ -141,7 +141,7 @@ const Hero = () => {
               <div className="absolute -inset-4 bg-gradient-to-r from-primary-500 to-purple-500 rounded-full blur-xl opacity-40 animate-pulse delay-300"></div>
               
               {/* Profile image container */}
-              <div className="relative w-64 h-64 sm:w-80 sm:h-80 lg:w-96 lg:h-96 rounded-full overflow-hidden border-4 border-white dark:border-gray-700 shadow-2xl group-hover:shadow-3xl transition-all duration-500 bg-gradient-to-br from-primary-100 to-purple-100 dark:from-primary-900/20 dark:to-purple-900/20">
+              <div className="relative w-80 h-80 lg:w-96 lg:h-96 rounded-full overflow-hidden border-4 border-white dark:border-gray-700 shadow-2xl group-hover:shadow-3xl transition-all duration-500 bg-gradient-to-br from-primary-100 to-purple-100 dark:from-primary-900/20 dark:to-purple-900/20">
                 <img
                   src="/profile.jpg"
                   alt={personal.name}

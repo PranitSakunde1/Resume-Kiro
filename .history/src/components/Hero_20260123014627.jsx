@@ -86,28 +86,28 @@ const Hero = () => {
             </div>
 
             {/* Enhanced action buttons */}
-            <div className="flex flex-col sm:flex-row gap-3 sm:gap-4 justify-center lg:justify-start mb-10">
+            <div className="flex flex-col sm:flex-row gap-4 justify-center lg:justify-start mb-10">
               <button
                 onClick={handleDownloadResume}
-                className="group inline-flex items-center justify-center px-6 sm:px-8 py-3 sm:py-4 bg-gradient-to-r from-primary-600 to-primary-700 hover:from-primary-700 hover:to-primary-800 text-white font-bold rounded-2xl transition-all duration-300 hover:transform hover:scale-105 shadow-xl hover:shadow-2xl relative overflow-hidden text-sm sm:text-base"
+                className="group inline-flex items-center justify-center px-8 py-4 bg-gradient-to-r from-primary-600 to-primary-700 hover:from-primary-700 hover:to-primary-800 text-white font-bold rounded-2xl transition-all duration-300 hover:transform hover:scale-105 shadow-xl hover:shadow-2xl relative overflow-hidden"
               >
                 <div className="absolute inset-0 bg-gradient-to-r from-white/20 to-transparent opacity-0 group-hover:opacity-100 transition-opacity"></div>
-                <Download className="w-4 h-4 sm:w-5 sm:h-5 mr-2 group-hover:animate-bounce" />
+                <Download className="w-5 h-5 mr-2 group-hover:animate-bounce" />
                 Resume PDF
                 <div className="absolute -top-1 -right-1 w-3 h-3 bg-green-400 rounded-full animate-ping"></div>
               </button>
               <button
                 onClick={handleGeneratePDF}
-                className="group inline-flex items-center justify-center px-6 sm:px-8 py-3 sm:py-4 border-2 border-primary-600 text-primary-600 hover:bg-primary-600 hover:text-white font-bold rounded-2xl transition-all duration-300 hover:transform hover:scale-105 backdrop-blur-sm text-sm sm:text-base"
+                className="group inline-flex items-center justify-center px-8 py-4 border-2 border-primary-600 text-primary-600 hover:bg-primary-600 hover:text-white font-bold rounded-2xl transition-all duration-300 hover:transform hover:scale-105 backdrop-blur-sm"
               >
-                <FileText className="w-4 h-4 sm:w-5 sm:h-5 mr-2 group-hover:animate-pulse" />
+                <FileText className="w-5 h-5 mr-2 group-hover:animate-pulse" />
                 Website PDF
               </button>
               <button
                 onClick={() => document.getElementById('contact').scrollIntoView({ behavior: 'smooth' })}
-                className="group inline-flex items-center justify-center px-6 sm:px-8 py-3 sm:py-4 bg-gradient-to-r from-purple-600 to-purple-700 hover:from-purple-700 hover:to-purple-800 text-white font-bold rounded-2xl transition-all duration-300 hover:transform hover:scale-105 shadow-xl hover:shadow-2xl text-sm sm:text-base"
+                className="group inline-flex items-center justify-center px-8 py-4 bg-gradient-to-r from-purple-600 to-purple-700 hover:from-purple-700 hover:to-purple-800 text-white font-bold rounded-2xl transition-all duration-300 hover:transform hover:scale-105 shadow-xl hover:shadow-2xl"
               >
-                <Zap className="w-4 h-4 sm:w-5 sm:h-5 mr-2 group-hover:animate-pulse" />
+                <Zap className="w-5 h-5 mr-2 group-hover:animate-pulse" />
                 Let's Talk
               </button>
             </div>
@@ -141,7 +141,7 @@ const Hero = () => {
               <div className="absolute -inset-4 bg-gradient-to-r from-primary-500 to-purple-500 rounded-full blur-xl opacity-40 animate-pulse delay-300"></div>
               
               {/* Profile image container */}
-              <div className="relative w-64 h-64 sm:w-80 sm:h-80 lg:w-96 lg:h-96 rounded-full overflow-hidden border-4 border-white dark:border-gray-700 shadow-2xl group-hover:shadow-3xl transition-all duration-500 bg-gradient-to-br from-primary-100 to-purple-100 dark:from-primary-900/20 dark:to-purple-900/20">
+              <div className="relative w-80 h-80 lg:w-96 lg:h-96 rounded-full overflow-hidden border-4 border-white dark:border-gray-700 shadow-2xl group-hover:shadow-3xl transition-all duration-500 bg-gradient-to-br from-primary-100 to-purple-100 dark:from-primary-900/20 dark:to-purple-900/20">
                 <img
                   src="/profile.jpg"
                   alt={personal.name}

@@ -7,7 +7,7 @@ const Experience = () => {
   return (
     <section id="experience" className="py-20 bg-gradient-to-br from-white/50 via-gray-50/50 to-primary-50/50 dark:from-gray-800/50 dark:via-gray-900/50 dark:to-gray-800/50 relative overflow-hidden transition-colors duration-300">
 
-      <div className="container-max section-padding relative z-10 max-w-7xl mx-auto">
+      <div className="container-max section-padding relative z-10">
         <div className="text-center mb-12 sm:mb-16 lg:mb-20 animate-fade-in px-4">
           <div className="inline-flex items-center gap-2 px-3 sm:px-4 py-2 bg-primary-100 dark:bg-primary-900/20 text-primary-600 dark:text-primary-400 rounded-full text-xs sm:text-sm font-medium mb-4 sm:mb-6">
             <Award className="w-3 h-3 sm:w-4 sm:h-4" />
@@ -156,12 +156,12 @@ const Experience = () => {
         </div>
 
         {/* Enhanced experience summary */}
-        <div className="mt-12 sm:mt-16 lg:mt-20 text-center animate-fade-in px-4">
-          <div className="bg-gradient-to-r from-primary-50 via-white to-primary-50 dark:from-primary-900/10 dark:via-gray-800 dark:to-primary-900/10 rounded-3xl p-6 sm:p-8 lg:p-10 max-w-5xl mx-auto shadow-xl border border-primary-100 dark:border-primary-800/20">
-            <h3 className="text-xl sm:text-2xl font-bold mb-4 sm:mb-6 text-gray-900 dark:text-white">
+        <div className="mt-20 text-center animate-fade-in">
+          <div className="bg-gradient-to-r from-primary-50 via-white to-primary-50 dark:from-primary-900/10 dark:via-dark-800 dark:to-primary-900/10 rounded-3xl p-10 max-w-5xl mx-auto shadow-xl border border-primary-100 dark:border-primary-800/20">
+            <h3 className="text-2xl font-bold mb-6 text-gray-900 dark:text-white">
               5+ Years of Leadership Excellence
             </h3>
-            <p className="text-gray-600 dark:text-gray-400 leading-relaxed mb-6 sm:mb-8 text-sm sm:text-base lg:text-lg px-2">
+            <p className="text-gray-600 dark:text-gray-400 leading-relaxed mb-8 text-lg">
               From Software Engineer to Technical Lead at Quest Global, I've consistently delivered high-quality solutions for HP Inc., 
               led cross-functional teams of up to 8 members, and driven innovation in enterprise-level healthcare applications. 
               My experience spans the full software development lifecycle, from HLD/LLD creation to production deployment, 
@@ -169,22 +169,22 @@ const Experience = () => {
             </p>
             
             {/* Enhanced leadership highlights */}
-            <div className="grid grid-cols-2 sm:grid-cols-4 gap-4 sm:gap-6 lg:gap-8">
-              <div className="text-center p-3 sm:p-4 lg:p-6 bg-white dark:bg-gray-900 rounded-2xl shadow-lg hover:shadow-xl transition-shadow">
-                <div className="text-2xl sm:text-3xl font-bold text-primary-600 dark:text-primary-400 mb-2">8</div>
-                <div className="text-xs sm:text-sm text-gray-600 dark:text-gray-400 font-medium">Team Members Led</div>
+            <div className="grid grid-cols-1 sm:grid-cols-4 gap-8">
+              <div className="text-center p-6 bg-white dark:bg-dark-900 rounded-2xl shadow-lg hover:shadow-xl transition-shadow">
+                <div className="text-3xl font-bold text-primary-600 dark:text-primary-400 mb-2">8</div>
+                <div className="text-sm text-gray-600 dark:text-gray-400 font-medium">Team Members Led</div>
               </div>
-              <div className="text-center p-3 sm:p-4 lg:p-6 bg-white dark:bg-gray-900 rounded-2xl shadow-lg hover:shadow-xl transition-shadow">
-                <div className="text-2xl sm:text-3xl font-bold text-primary-600 dark:text-primary-400 mb-2">50K+</div>
-                <div className="text-xs sm:text-sm text-gray-600 dark:text-gray-400 font-medium">Users Served</div>
+              <div className="text-center p-6 bg-white dark:bg-dark-900 rounded-2xl shadow-lg hover:shadow-xl transition-shadow">
+                <div className="text-3xl font-bold text-primary-600 dark:text-primary-400 mb-2">50K+</div>
+                <div className="text-sm text-gray-600 dark:text-gray-400 font-medium">Users Served</div>
               </div>
-              <div className="text-center p-3 sm:p-4 lg:p-6 bg-white dark:bg-gray-900 rounded-2xl shadow-lg hover:shadow-xl transition-shadow">
-                <div className="text-2xl sm:text-3xl font-bold text-primary-600 dark:text-primary-400 mb-2">99.9%</div>
-                <div className="text-xs sm:text-sm text-gray-600 dark:text-gray-400 font-medium">System Uptime</div>
+              <div className="text-center p-6 bg-white dark:bg-dark-900 rounded-2xl shadow-lg hover:shadow-xl transition-shadow">
+                <div className="text-3xl font-bold text-primary-600 dark:text-primary-400 mb-2">99.9%</div>
+                <div className="text-sm text-gray-600 dark:text-gray-400 font-medium">System Uptime</div>
               </div>
-              <div className="text-center p-3 sm:p-4 lg:p-6 bg-white dark:bg-gray-900 rounded-2xl shadow-lg hover:shadow-xl transition-shadow">
-                <div className="text-2xl sm:text-3xl font-bold text-primary-600 dark:text-primary-400 mb-2">40%</div>
-                <div className="text-xs sm:text-sm text-gray-600 dark:text-gray-400 font-medium">Productivity Boost</div>
+              <div className="text-center p-6 bg-white dark:bg-dark-900 rounded-2xl shadow-lg hover:shadow-xl transition-shadow">
+                <div className="text-3xl font-bold text-primary-600 dark:text-primary-400 mb-2">40%</div>
+                <div className="text-sm text-gray-600 dark:text-gray-400 font-medium">Productivity Boost</div>
               </div>
             </div>
           </div>

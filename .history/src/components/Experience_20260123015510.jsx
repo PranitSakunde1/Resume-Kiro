@@ -7,7 +7,7 @@ const Experience = () => {
   return (
     <section id="experience" className="py-20 bg-gradient-to-br from-white/50 via-gray-50/50 to-primary-50/50 dark:from-gray-800/50 dark:via-gray-900/50 dark:to-gray-800/50 relative overflow-hidden transition-colors duration-300">
 
-      <div className="container-max section-padding relative z-10 max-w-7xl mx-auto">
+      <div className="container-max section-padding relative z-10">
         <div className="text-center mb-12 sm:mb-16 lg:mb-20 animate-fade-in px-4">
           <div className="inline-flex items-center gap-2 px-3 sm:px-4 py-2 bg-primary-100 dark:bg-primary-900/20 text-primary-600 dark:text-primary-400 rounded-full text-xs sm:text-sm font-medium mb-4 sm:mb-6">
             <Award className="w-3 h-3 sm:w-4 sm:h-4" />

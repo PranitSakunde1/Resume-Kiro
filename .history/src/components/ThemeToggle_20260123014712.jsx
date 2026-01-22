@@ -30,8 +30,8 @@ const ThemeToggle = () => {
         />
       </div>
       
-      {/* Tooltip - Hidden on mobile */}
-      <div className="hidden sm:block absolute right-full mr-3 top-1/2 transform -translate-y-1/2 px-2 py-1 bg-gray-900 dark:bg-white text-white dark:text-gray-900 text-xs rounded opacity-0 group-hover:opacity-100 transition-opacity duration-200 whitespace-nowrap pointer-events-none">
+      {/* Tooltip */}
+      <div className="absolute right-full mr-3 top-1/2 transform -translate-y-1/2 px-2 py-1 bg-gray-900 dark:bg-white text-white dark:text-gray-900 text-xs rounded opacity-0 group-hover:opacity-100 transition-opacity duration-200 whitespace-nowrap pointer-events-none">
         {isDark ? 'Light mode' : 'Dark mode'}
         <div className="absolute left-full top-1/2 transform -translate-y-1/2 border-4 border-transparent border-l-gray-900 dark:border-l-white"></div>
       </div>

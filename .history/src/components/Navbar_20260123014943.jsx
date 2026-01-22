@@ -110,7 +110,7 @@ const Navbar = ({ activeSection }) => {
         {/* Mobile Navigation */}
         {isOpen && (
           <div className="md:hidden">
-            <div className="px-2 pt-2 pb-3 space-y-1 bg-white dark:bg-gray-800 rounded-lg mt-2 shadow-lg">
+            <div className="px-2 pt-2 pb-3 space-y-1 bg-white dark:bg-dark-800 rounded-lg mt-2 shadow-lg">
               {navItems.map((item) => (
                 <button
                   key={item.id}
@@ -118,7 +118,7 @@ const Navbar = ({ activeSection }) => {
                   className={`block w-full text-left px-3 py-2 rounded-md text-base font-medium transition-colors ${
                     activeSection === item.id
                       ? 'text-primary-400 bg-primary-50 dark:bg-primary-900/20'
-                      : 'text-gray-700 dark:text-gray-300 hover:text-primary-400 hover:bg-gray-50 dark:hover:bg-gray-700'
+                      : 'text-gray-700 dark:text-gray-300 hover:text-primary-400 hover:bg-gray-50 dark:hover:bg-dark-700'
                   }`}
                 >
                   {item.label}

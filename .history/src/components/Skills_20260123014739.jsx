@@ -102,12 +102,12 @@ const Skills = () => {
                 <div className={`absolute inset-0 bg-gradient-to-br ${colorClass} opacity-0 group-hover:opacity-5 transition-opacity duration-500`}></div>
                 
                 {/* Header */}
-                <div className="flex items-center justify-between mb-4 sm:mb-6 relative z-10">
-                  <div className={`p-2 sm:p-3 rounded-xl bg-gradient-to-r ${colorClass} text-white group-hover:scale-110 transition-transform duration-300 shadow-lg`}>
-                    <IconComponent className="w-5 h-5 sm:w-6 sm:h-6" />
+                <div className="flex items-center justify-between mb-6 relative z-10">
+                  <div className={`p-3 rounded-xl bg-gradient-to-r ${colorClass} text-white group-hover:scale-110 transition-transform duration-300 shadow-lg`}>
+                    <IconComponent className="w-6 h-6" />
                   </div>
                   <div className="text-right">
-                    <div className="text-xl sm:text-2xl font-bold text-gray-900 dark:text-white">{level}%</div>
+                    <div className="text-2xl font-bold text-gray-900 dark:text-white">{level}%</div>
                     <div className="text-xs text-gray-500 dark:text-gray-400">Proficiency</div>
                   </div>
                 </div>
@@ -125,7 +125,7 @@ const Skills = () => {
                   </div>
                 </div>
 
-                <h3 className="text-base sm:text-lg font-bold text-gray-900 dark:text-white mb-3 sm:mb-4 group-hover:text-primary-600 dark:group-hover:text-primary-400 transition-colors relative z-10">
+                <h3 className="text-lg font-bold text-gray-900 dark:text-white mb-4 group-hover:text-primary-600 dark:group-hover:text-primary-400 transition-colors relative z-10">
                   {category}
                 </h3>
                 

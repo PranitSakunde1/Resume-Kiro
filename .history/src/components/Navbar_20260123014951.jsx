@@ -118,7 +118,7 @@ const Navbar = ({ activeSection }) => {
                   className={`block w-full text-left px-3 py-2 rounded-md text-base font-medium transition-colors ${
                     activeSection === item.id
                       ? 'text-primary-400 bg-primary-50 dark:bg-primary-900/20'
-                      : 'text-gray-700 dark:text-gray-300 hover:text-primary-400 hover:bg-gray-50 dark:hover:bg-gray-700'
+                      : 'text-gray-700 dark:text-gray-300 hover:text-primary-400 hover:bg-gray-50 dark:hover:bg-dark-700'
                   }`}
                 >
                   {item.label}
