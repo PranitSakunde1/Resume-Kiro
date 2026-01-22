@@ -129,14 +129,7 @@ const Navbar = ({ activeSection }) => {
                 className="flex items-center w-full px-3 py-2 text-base font-medium text-primary-500 hover:bg-primary-50 dark:hover:bg-primary-900/20 rounded-md transition-colors"
               >
                 <Download className="w-4 h-4 mr-2" />
-                Download Resume PDF
-              </button>
-              <button
-                onClick={handleGeneratePDF}
-                className="flex items-center w-full px-3 py-2 text-base font-medium text-primary-500 hover:bg-primary-50 dark:hover:bg-primary-900/20 rounded-md transition-colors"
-              >
-                <FileText className="w-4 h-4 mr-2" />
-                Generate Website PDF
+                Download Resume
               </button>
             </div>
           </div>

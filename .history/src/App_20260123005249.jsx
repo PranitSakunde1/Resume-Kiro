@@ -1,4 +1,4 @@
-import { useState, useEffect } from 'react'
+import React, { useState, useEffect } from 'react'
 import Navbar from './components/Navbar'
 import Hero from './components/Hero'
 import Skills from './components/Skills'
@@ -8,7 +8,6 @@ import Education from './components/Education'
 import Contact from './components/Contact'
 import ScrollToTop from './components/ScrollToTop'
 import PDFStyles from './components/PDFStyles'
-import CodeBackground from './components/CodeBackground'
 
 function App() {
   const [activeSection, setActiveSection] = useState('hero')
@@ -35,9 +34,7 @@ function App() {
   }, [])
 
   return (
-    <div className="min-h-screen bg-white dark:bg-dark-900 text-gray-900 dark:text-white relative">
-      <CodeBackground />
-      <PDFStyles />
+    <div className="min-h-screen bg-white dark:bg-dark-900 text-gray-900 dark:text-white">
       <Navbar activeSection={activeSection} />
       <main>
         <Hero />

@@ -79,20 +79,13 @@ const Navbar = ({ activeSection }) => {
           </div>
 
           {/* Download Resume Button */}
-          <div className="hidden md:flex items-center gap-2">
+          <div className="hidden md:block">
             <button
               onClick={handleDownloadResume}
               className="inline-flex items-center px-4 py-2 border border-primary-500 text-sm font-medium rounded-lg text-primary-500 hover:bg-primary-500 hover:text-white transition-colors duration-200"
             >
               <Download className="w-4 h-4 mr-2" />
-              Resume PDF
-            </button>
-            <button
-              onClick={handleGeneratePDF}
-              className="inline-flex items-center px-4 py-2 bg-primary-500 hover:bg-primary-600 text-white text-sm font-medium rounded-lg transition-colors duration-200"
-            >
-              <FileText className="w-4 h-4 mr-2" />
-              Generate PDF
+              Resume
             </button>
           </div>
 
@@ -129,14 +122,7 @@ const Navbar = ({ activeSection }) => {
                 className="flex items-center w-full px-3 py-2 text-base font-medium text-primary-500 hover:bg-primary-50 dark:hover:bg-primary-900/20 rounded-md transition-colors"
               >
                 <Download className="w-4 h-4 mr-2" />
-                Download Resume PDF
-              </button>
-              <button
-                onClick={handleGeneratePDF}
-                className="flex items-center w-full px-3 py-2 text-base font-medium text-primary-500 hover:bg-primary-50 dark:hover:bg-primary-900/20 rounded-md transition-colors"
-              >
-                <FileText className="w-4 h-4 mr-2" />
-                Generate Website PDF
+                Download Resume
               </button>
             </div>
           </div>

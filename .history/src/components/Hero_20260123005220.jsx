@@ -1,4 +1,4 @@
-import { useState, useEffect } from 'react'
+import React, { useState, useEffect } from 'react'
 import { MapPin, Mail, Phone, Github, Linkedin, Download, ChevronDown, Sparkles, Code, Zap, FileText } from 'lucide-react'
 import { resumeData } from '../data/resumeData'
 import { generatePDF } from '../utils/pdfGenerator'
@@ -39,8 +39,41 @@ const Hero = () => {
 
   return (
     <section id="hero" className="min-h-screen flex items-center justify-center relative overflow-hidden">
-      {/* Subtle background overlay for better text readability */}
-      <div className="absolute inset-0 bg-gradient-to-br from-primary-50/30 via-white/50 to-purple-50/30 dark:from-dark-900/80 dark:via-dark-800/70 dark:to-dark-900/80"></div>
+      {/* Enhanced animated background */}
+      <div className="absolute inset-0 bg-gradient-to-br from-primary-50 via-white to-purple-50 dark:from-dark-900 dark:via-dark-800 dark:to-dark-900">
+        {/* Dynamic gradient orbs */}
+        <div 
+          className="absolute w-96 h-96 bg-gradient-to-r from-primary-400/20 to-purple-400/20 rounded-full mix-blend-multiply filter blur-3xl animate-pulse"
+          style={{
+            left: `${20 + mousePosition.x * 0.1}%`,
+            top: `${20 + mousePosition.y * 0.1}%`,
+          }}
+        ></div>
+        <div 
+          className="absolute w-96 h-96 bg-gradient-to-r from-purple-400/20 to-pink-400/20 rounded-full mix-blend-multiply filter blur-3xl animate-pulse delay-1000"
+          style={{
+            right: `${20 + mousePosition.x * 0.05}%`,
+            bottom: `${20 + mousePosition.y * 0.05}%`,
+          }}
+        ></div>
+        <div className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 w-64 h-64 bg-gradient-to-r from-primary-300/20 to-blue-300/20 rounded-full mix-blend-multiply filter blur-3xl animate-pulse delay-500"></div>
+      </div>
+
+      {/* Floating particles */}
+      <div className="absolute inset-0 overflow-hidden">
+        {[...Array(20)].map((_, i) => (
+          <div
+            key={i}
+            className="absolute w-2 h-2 bg-primary-400/30 rounded-full animate-pulse"
+            style={{
+              left: `${Math.random() * 100}%`,
+              top: `${Math.random() * 100}%`,
+              animationDelay: `${Math.random() * 3}s`,
+              animationDuration: `${2 + Math.random() * 2}s`
+            }}
+          ></div>
+        ))}
+      </div>
 
       <div className="container-max section-padding relative z-10">
         <div className="flex flex-col lg:flex-row items-center justify-between gap-16 lg:gap-24">
@@ -48,6 +81,12 @@ const Hero = () => {
           {/* Left side - Enhanced Content */}
           <div className={`flex-1 text-center lg:text-left transition-all duration-1000 ${isLoaded ? 'animate-slide-in-left' : 'opacity-0'}`}>
             
+            {/* Status badge */}
+            <div className="inline-flex items-center gap-2 px-4 py-2 bg-green-100 dark:bg-green-900/20 text-green-600 dark:text-green-400 rounded-full text-sm font-medium mb-6 animate-bounce">
+              <div className="w-2 h-2 bg-green-500 rounded-full animate-pulse"></div>
+              Available for new opportunities
+            </div>
+
             <div className="mb-8">
               <p className="text-primary-600 dark:text-primary-400 font-semibold mb-4 tracking-wide uppercase text-sm flex items-center justify-center lg:justify-start gap-2">
                 <Sparkles className="w-4 h-4" />

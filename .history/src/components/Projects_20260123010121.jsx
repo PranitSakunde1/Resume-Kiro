@@ -1,4 +1,4 @@
-import { useState } from 'react'
+import React, { useState } from 'react'
 import { ExternalLink, Github, Folder, Tag, Building, Users, TrendingUp, Award, Zap } from 'lucide-react'
 import { resumeData } from '../data/resumeData'
 

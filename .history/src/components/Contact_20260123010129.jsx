@@ -1,4 +1,4 @@
-import { useState, useEffect } from 'react'
+import React, { useState, useEffect } from 'react'
 import { Mail, Phone, MapPin, Github, Linkedin, Send, MessageCircle, Zap, Clock, CheckCircle, ArrowRight, Sparkles, Code, Coffee } from 'lucide-react'
 import { resumeData } from '../data/resumeData'
 

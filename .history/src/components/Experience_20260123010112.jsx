@@ -1,3 +1,4 @@
+import React from 'react'
 import { Briefcase, Calendar, MapPin, ChevronRight, Building, Users, Award } from 'lucide-react'
 import { resumeData } from '../data/resumeData'
 

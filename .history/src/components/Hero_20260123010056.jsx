@@ -1,4 +1,4 @@
-import { useState, useEffect } from 'react'
+import React, { useState, useEffect } from 'react'
 import { MapPin, Mail, Phone, Github, Linkedin, Download, ChevronDown, Sparkles, Code, Zap, FileText } from 'lucide-react'
 import { resumeData } from '../data/resumeData'
 import { generatePDF } from '../utils/pdfGenerator'
